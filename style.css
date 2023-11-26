@@ -27,6 +27,7 @@ li {
     display: grid;
     grid-template: 40px 1fr 1.5fr / 1fr;
     padding-right: 20px;
+    color: white;
 }
 
 .sidebar #sidebar-header {
@@ -51,6 +52,14 @@ li {
 .searchbar {
     grid-area: 1 / 1;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: bisque;
+  }
 
 .user-greeting {
     grid-area: 2 / 1;
@@ -156,4 +165,8 @@ button:hover {
     background-color: #64748b;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.69);
 
+}
+
+.footer {
+    
 }
