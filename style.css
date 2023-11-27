@@ -77,7 +77,7 @@ input[type=text] {
     grid-area: 2 / 2;
     display: flex;
     justify-content: end;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 button {
@@ -89,7 +89,7 @@ button {
     cursor: pointer;
     color: #ffffff;
 
-    font-size: 17px;
+    font-size: 14px;
     padding: 16px 35px;
     margin: 10px;
     text-decoration: none;
@@ -148,7 +148,7 @@ button:hover {
     grid-area: 2/ 2;
     padding: 12px;
     box-shadow: 2px;
-    background-color: #64748b;
+    background-color: white; /*#64748b; */
     border-radius: 15px;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.69);
 }
@@ -162,7 +162,7 @@ button:hover {
     border-radius: 15px;
     padding: 12px;
     grid-area: 4/ 2;
-    background-color: #64748b;
+    background-color: white; /*#64748b; */
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.69);
 
 }
