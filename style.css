@@ -7,6 +7,7 @@ body {
 
 li {
     list-style-type: none;
+    
 }
 
 .header {
@@ -28,6 +29,7 @@ li {
     grid-template: 40px 1fr 1.5fr / 1fr;
     padding-right: 20px;
     color: white;
+    font-size: 20px;
 }
 
 .sidebar #sidebar-header {
@@ -46,12 +48,20 @@ li {
 
 .sidebar li {
     margin: 15px 0;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center; 
 }
 
+.sidebarspan {
+    font-size: 20px; /* Set the font size to match the height of your images */
+  }
 
 
 .sidebar img {
     width: 8%;
+    margin-right: 10px
 }
 
 .searchbar {
@@ -191,4 +201,21 @@ button:hover {
 
 .footer {
     
+}
+
+#githublogo {
+    
+    grid-area: 0 / -1 ;
+}
+#githublogo img {
+    width: 18px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey
 }
